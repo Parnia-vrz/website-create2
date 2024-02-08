@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border: 1px solid gray;
+    padding: 40px;
+}
+h3{
+    margin-left: 60px;
+    color: blueviolet;
+    font: italic small-caps bold 16px/2 cursive;
+}
+main{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+div{
+    border: 1px solid orange;
+    border-radius: 10px;
+    width: 900px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+line-height: 25px;
+}
+.why{
+    font-size: x-large;
+}
+.wan{
+    font-size: larger;
+}
+ol{
+    padding: 20px;
+}
+ul{
+    padding: 20px;
+}
+.btn{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(44, 192, 44);
+    border-radius: 30px;
+   margin-top: 30px;
+}
+
+.btn:hover {
+     transition: 0.5s;
+    background-color: orange;
+    cursor: pointer;
+ transform: scaleX(2);
+  }
+  
