@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border: 1px solid gray;
+    padding: 40px;
+}
+h3{
+    margin-left: 60px;
+    color: blueviolet;
+    font: italic small-caps bold 16px/2 cursive;
+}
+main{
+    margin-top: 60px;
+}
+#para{
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 20px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+img{
+margin-top: 60px;
+width: 800px;
+height: 600px;
+}
+.btn{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(44, 192, 44);
+    border-radius: 30px;
+}
+.btn:hover {
+     transition: 0.5s;
+    background-color: orange;
+    cursor: pointer;
+ transform: scaleX(2);
+  }
